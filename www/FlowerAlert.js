@@ -1,6 +1,6 @@
 var exec = require('cordova/exec');
 
-exports.alert = function(flower) {
+exports.alert = function(text, theme) {
 	function callback() {
 		console.log('This text: "' + text + '" was alerted.');
 	}
